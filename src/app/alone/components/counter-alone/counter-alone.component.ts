@@ -1,8 +1,10 @@
 import { Component, Input } from '@angular/core';
+import { SideMenuComponent } from 'src/app/maps/components/side-menu/side-menu.component';
 
 @Component({
   selector: 'counter-alone',
   standalone: true,
+  imports: [ SideMenuComponent],
   templateUrl: './counter-alone.component.html',
   styleUrls: ['./counter-alone.component.css']
 })
